@@ -58,7 +58,7 @@ func main() {
 			&cli.StringFlag{
 				Name:    "username",
 				Aliases: []string{"u"},
-				Usage:   "GitHub username that you want to fetch the data of.",
+				Usage:   "GitHub username that you want to fetch data of.",
 			},
 		},
 		Action: func(c *cli.Context) error {
